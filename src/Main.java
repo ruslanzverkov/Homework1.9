@@ -10,6 +10,8 @@ public class Main {
 
         WarAndPeace.setYearOfPublication(1870);
 
-        System.out.println(WarAndPeace.yearOfPublication);
+        System.out.println(WarAndPeace.getYearOfPublication());
+
+        System.out.println(WarAndPeace.equals(RuslanAndLyudmila));
     }
 }
