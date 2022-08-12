@@ -11,7 +11,10 @@ public class Main {
         WarAndPeace.setYearOfPublication(1870);
 
         System.out.println(WarAndPeace.getYearOfPublication());
+        System.out.println(LeoTolstoy);
+        System.out.println(WarAndPeace);
 
         System.out.println(WarAndPeace.equals(RuslanAndLyudmila));
+        System.out.println(LeoTolstoy.equals(AlexandrPushkin));
     }
 }
